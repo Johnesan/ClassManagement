@@ -218,6 +218,10 @@
     <Compile Include="Migrations\201709020025371_applicationuser updated.Designer.cs">
       <DependentUpon>201709020025371_applicationuser updated.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709031307341_role configured.cs" />
+    <Compile Include="Migrations\201709031307341_role configured.Designer.cs">
+      <DependentUpon>201709031307341_role configured.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Course.cs" />
@@ -322,6 +326,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709020025371_applicationuser updated.resx">
       <DependentUpon>201709020025371_applicationuser updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709031307341_role configured.resx">
+      <DependentUpon>201709031307341_role configured.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
